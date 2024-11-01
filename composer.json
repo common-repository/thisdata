@@ -1,0 +1,22 @@
+{
+    "name": "thisdata/thisdata-wordpress",
+    "description": "ThisData integration for WordPress",
+    "type": "wordpress-plugin",
+    "require": {
+        "thisdata/api": "^0.1.3",
+        "mohiohio/wordpress-lib": "^0.1",
+        "analog/analog": "^1.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Tim Field",
+            "email": "field.tim@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThisData\\WordPress\\": "./"
+        }
+    }
+}
